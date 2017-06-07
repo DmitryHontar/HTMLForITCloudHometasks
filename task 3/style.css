@@ -1,0 +1,57 @@
+body{
+	background-color: azure;
+	width: 62%;
+	margin:0 auto;
+}
+div {
+	margin: 40px 0;
+	width: 100%;
+}
+
+span {
+	text-decoration: line-through;
+}
+a{
+	text-decoration: none;
+}
+img{
+    width: inherit;
+}
+.center {
+	text-align: center;
+}
+.active:active{
+	color: red;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.align-left{
+	height:30px;
+	text-align: left;
+}
+.hover:hover{
+	border: 3px dotted magenta;
+	text-decoration: underline;
+	color: orange;
+}
+.align-right{
+	text-align: right;
+}
+.visited:visited{
+color: aquamarine;
+}
+.back-attachment{
+	padding: 10px 0;
+	height: 500px;
+	background-attachment: fixed;
+	background-image: url(image/data.jpg);
+
+}
+.paragraph{
+	text-indent: 20px;
+	margin-top: 140px;
+	background-color: RGBA(249, 15, 16, 0.7);
+	color: rgb(255,255,255);
+
+}
