@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset='UTF-8'/>
+	<title>Form(hometask)</title>
+	<style>
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Насколько Вы довольны отелем?</h1>
+	</header>
+	<main>
+		<form>
+			<fieldset>
+				<legend>Пожалуйста, представьтесь</legend>
+					<div>  Имя: </div> 
+					 	<div> <input type =  "text" name = "firstname" value =  "Введите имя"></div>   
+					 <br/>
+					 <div> Фамилия: </div>  
+					 	<div> <input type =  "text" name = "lastname" value =  "Введите фамилию"> </div>  
+					 <br/>
+					 <div>Пол: </div>  
+						 <div> 
+							<span>Мужcкой <input type =  "radio" name = "sex" value =  "male" checked></span> 
+							<span>Женский</span> <input type =  "radio" name = "sex" value =  "female">
+						</div>
+					<br/>
+					<div>Возраст:</div>
+						<div><input name='age' type='number' placeholder='Укажите возраст' min='0' max='130'></div>
+
+			</fieldset>
+			<fieldset>
+				<legend>Ответьте, пожалуйста, на вопросы</legend>
+					<ol>
+						<li>
+							<b>Оценте по шкале от 1 до 5 Ваш последний отель, где 1 - минимальная оценка, 5 - максимальная</b>
+									<table>
+										<thead>
+											<tr>
+												<th></th>
+												<th align="center"><u>1</u></th>
+												<th align="center"><u>2</u></th>
+												<th align="center"><u>3</u></th>
+												<th align="center"><u>4</u></th>
+												<th align="center"><u>5</u></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th>Трансфер</th>
+												<td>
+													<input name='transf' type='radio'/>
+												</td>
+												<td>
+													<input name='transf' type='radio'/>
+												</td>
+																			<td>
+													<input name='transf' type='radio'/>
+												</td>
+																			<td>
+													<input name='transf' type='radio'/>
+												</td>
+																			<td>
+													<input name='transf' type='radio'/>
+												</td>
+											</tr>
+											<tr>
+												<th>Уровень обслуживания</th>
+												<td>
+													<input name='service' type='radio'/>
+												</td>
+												<td>
+													<input name='service' type='radio'/>
+												</td>
+																			<td>
+													<input name='service' type='radio'/>
+												</td>
+																			<td>
+													<input name='service' type='radio'/>
+												</td>
+																			<td>
+													<input name='service' type='radio'/>
+												</td>
+											</tr>
+											<tr>
+												<th>Номера</th>
+												<td>
+													<input name='rooms' type='radio'/>
+												</td>
+												<td>
+													<input name='rooms' type='radio'/>
+												</td>
+																			<td>
+													<input name='rooms' type='radio'/>
+												</td>
+																			<td>
+													<input name='rooms' type='radio'/>
+												</td>
+																			<td>
+													<input name='rooms' type='radio'/>
+												</td>
+											</tr>
+											<tr>
+												<th>Кухня</th>
+												<td>
+													<input name='kitchen' type='radio'/>
+												</td>
+												<td>
+													<input name='kitchen' type='radio'/>
+												</td>
+																			<td>
+													<input name='kitchen' type='radio'/>
+												</td>
+																			<td>
+													<input name='kitchen' type='radio'/>
+												</td>
+																			<td>
+													<input name='kitchen' type='radio'/>
+												</td>
+											</tr>
+											<tr>
+												<th>Услуги отеля</th>
+												<td>
+													<input name='fun' type='radio'/>
+												</td>
+												<td>
+													<input name='fun' type='radio'/>
+												</td>
+																			<td>
+													<input name='fun' type='radio'/>
+												</td>
+																			<td>
+													<input name='fun' type='radio'/>
+												</td>
+																			<td>
+													<input name='fun' type='radio'/>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+						</li>
+						<li>
+							<b>Какими из услуг отеля Вы пользовались? Оценте по шкале от 1 до 5 насколько вы довольны ими</b>
+							<ul>
+								<li>
+									<label>
+										<input  name='checkbox' type='checkbox'/>
+										<span>Бассейн, сауна <input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+									</label>
+								</li>
+								<li>
+									<input id='place' name='checkbox' type='checkbox'/>
+										<span>Бар, ресторан<input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+									<label for='place'></label>
+								</li>
+								<li>
+									<label>
+										<input name='checkbox' type='checkbox'/>
+										<span>Экскурсии<input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+									</label>
+								</li>
+								<li>
+									<label>
+										<input name='checkbox' type='checkbox'/>
+										<span>Свой вариант:
+										<input name='text' type='text' placeholder='here'/><input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+									</label>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<b>Откуда Вы узнали об отеле?</b>
+							<div>
+								<label>
+									<input name='how' type='radio'/>
+									<span>Турагенство</span>
+								</label>
+							</div>
+							<div>
+								<label>
+									<input name='how' type='radio'/>
+									<span>Друзья</span>
+								</label>
+							</div>
+							<div>
+								<label>
+									<input name='how' type='radio'/>
+									<span>СМИ</span>
+								</label>
+							</div>
+						<li>
+							<b>Посоветуете ли вы для отдых в этом отеле своим друзьям?</b>
+
+								<div>
+									<select>
+			  							<option selected='selected'>Да</option>
+			  							<option>Предложу как крайний случай</option>
+			  							<option>Нет</option>
+			  							<option>Посоветую, только врагам</option>
+									</select>
+								</div>
+						</li>
+					</ol>
+					<button type='button'>Отправить</button>								
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+		
+		</footer>
+
+	</body>
+</html>

@@ -1,0 +1,438 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <title>
+        		Table
+        </title>
+    </head>
+    <body>
+    	<div>
+	    	<h2>Обычная таблица 3х2	</h2>
+	    		<table border="1">
+					<tbody>
+						<tr>
+							<td>A</td><td>B</td><td>C</td>
+						</tr>
+						<tr>
+							<td>D</td><td>E</td><td>F</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+
+		<div>
+    		<h2>Два примера с ROWSPAN</h2>
+    		<table border="1">
+				<tbody>
+					<tr>
+						<td>Ячейка 1</td><td rowspan="2">Ячейка 2</td><td bgcolor="lightgreen">Ячейка 3</td>
+					</tr>
+					<tr>
+						<td bgcolor="yellow">Ячейка 4</td><td>Ячейка 5</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<table border="1">
+				<tbody>
+					<tr>
+						<td rowspan="2">Ячейка 1</td><td >Ячейка 2</td><td>Ячейка 3</td><td>Ячейка 4</td>
+					</tr>
+					<tr>
+						<td>Ячейка 5</td><td>Ячейка 6</td><td>Ячейка 6</td>
+					</tr>
+				</tbody>
+			</table>
+    	</div>
+    	<div>
+    	 <h2>Пример с COLSPAN</h2>
+    	 <table border="1">
+				<tbody>
+					<tr>
+						<td>Ячейка 1</td><td colspan="2">Ячейка 2</td>
+					</tr>
+					<tr>
+						<td>Ячейка 3</td><td>Ячейка 4</td><td>Ячейка 5</td>
+					</tr>
+				</tbody>
+			</table>
+	  	</div>
+	  	<div>
+    	<h2>Заголовки (&ltTH&gt) </h2>
+    		<table border="1">
+				<thead>
+					<tr>
+						<th>Заголовок1</th>
+						<th>Заголовок2</th>
+						<th>Заголовок3</th>
+					</tr>
+				<tr>
+							<td bgcolor="yellow">A</td><td bgcolor="yellow">B</td><td bgcolor="yellow">C</td>
+						</tr>
+						<tr>
+							<td>D</td><td>E</td><td>F</td>
+						</tr>
+				</thead>
+			</table>
+		</div>
+		<div>
+    	<h2>COLSPAN и заголовки</h2>
+    		<table border>
+				<thead>
+					<tr>
+						<th colspan="2">Заголовок1</th>
+						<th colspan="2">Заголовок2</th>
+						
+					</tr>
+				<tr>
+							<td>A</td><td >B</td><td>C</td><td>D</td>
+						</tr>
+						<tr>
+							<td>E</td><td>F</td><td>G</td><td>H</td>
+						</tr>
+				</thead>
+			</table>
+		</div>
+		<div>
+    	<h2>Множественные заголовки</h2>
+    		<table border="1">
+				<thead>
+					<tr>
+						<th bgcolor="PaleGreen" colspan="2">Заголовок1</th>
+						<th bgcolor="PaleGreen" colspan="2">Заголовок2</th>
+						
+					</tr>
+					<tr>
+						<th bgcolor="PaleGreen">Заголовок3</th>
+						<th bgcolor="PaleGreen">Заголовок4</th>
+						<th bgcolor="PaleGreen">Заголовок5</th>
+						<th bgcolor="PaleGreen">Заголовок6</th>
+						
+					</tr>
+				<tr>
+							<td bgcolor="PaleGreen">A</td><td bgcolor="PaleGreen">B</td><td bgcolor="PaleGreen">C</td><td bgcolor="PaleGreen">D</td>
+						</tr>
+						<tr>
+							<td bgcolor="PaleGreen">E</td><td bgcolor="PaleGreen">F</td><td bgcolor="PaleGreen">G</td><td bgcolor="PaleGreen">H</td>
+						</tr>
+				</thead>
+			</table>
+		</div>
+		<div>
+	 	<h2>Боковые заголовки</h2>
+			<table border>
+				<tr>
+					<th>Заголовок1</th>
+					<td>Ячейка 1</td> <td>Ячейка 2</td> <td>Ячейка 3</td>
+				</tr>
+				<tr>
+					<th>Заголовок2</th>
+					<td>Ячейка 4</td> <td>Ячейка 5</td> <td>Ячейка 6</td>
+				</tr>
+				<tr>
+					<th>Заголовок3</th>
+					<td>Ячейка 7</td> <td>Ячейка 8</td> <td>Ячейка 9</td>
+				</tr>
+			</table>
+    	</div>
+    	<div>
+    	<h2>Боковые заголовки, ROWSPAN </h2>
+			<table border>
+				<tr>
+					<th rowspan=2>Загловок 1</th>
+					<td>Ячейка 1</td> <td>Ячейка 2</td> <td>Ячейка 3</td> <td>Ячейка 4</td>
+				</tr>
+				<tr>
+					<td>Ячейка 5</td> <td>Ячейка 6</td> <td>Ячейка 7</td> <td>Ячейка 8</td>
+				</tr>
+				<tr>
+				 	<th>Загловок 2</th>
+					<td>Ячейка 9</td> <td>Ячейка 10</td> <td>Ячейка 3</td> <td>Ячейка 11</td>
+				</tr>
+			</table>
+    	</div>
+    	<h2>Пример таблицы, которая использует все эти теги</h2>
+			<table border>
+				<tr>
+					<td><th rowspan=2></th>
+					<th colspan=2>Средний</th></td>
+				</tr>
+				<tr>
+					<td><th>Рост</th><th>Вес</th></td>
+				</tr>
+				<tr>
+					<th rowspan=2>Пол</th>
+					<th>Мужчины</th><td>1.9</td><td>0.003</td>
+				</tr>
+				<tr>
+					<th>Женщины</th><td>1.7</td><td>0.002</td>
+				</tr>
+			</table>
+    	<h2>Использование ROWSPAN/COLSPAN</h2>
+			<table border>
+				<tr>
+					<td align=center rowspan=2 colspan=2>ABCD</td>
+					<td>1234</td>
+					<td>2345</td>
+				</tr>
+				<tr>
+					<td>7582</td>
+					<td>4345</td>
+				</tr>
+				<tr>
+					<td align=center rowspan=2 colspan=2>DRFE</td>
+					<td align=center rowspan=2 colspan=2>RUCE</td>
+				</tr>
+				<tr>
+				</tr>
+			</TABLE>
+    	<h1  align="center">Выравнивание, отступы, рамки</h1>
+    	<h2>Таблица без рамки</h2>
+    	<!--Правда в задании нарисована таблица с рамкой-->
+			<table>
+				<tr>
+					<td>Ячейка 1</td> <td rowspan=2>Ячейка 2</td> <td>Ячейка 3</td>
+				</tr>
+				<tr>
+					<td>Ячейка 4</td> <td>Ячейка 5</td>
+				</tr>
+			</table>    	
+    	<h2>Таблица с рамкой, шириной 10</h2>
+	    		<table border="10">
+					<tbody>
+						<tr>
+							<td>Ячейка 1</td> <td>Ячейка 2</td>
+						</tr>
+						<tr>
+							<td>Ячейка 3</td> <td>Ячейка 4</td>
+						</tr>
+					</tbody>
+				</table>
+    	<h2>CELLPADDING и CELLPACING</h2>
+			<div>
+				<table border cellpadding=10 cellspacing=0>
+					<tr>
+						<td>A</td> <td>B</td> <td>C</td>
+					</tr>
+					<tr>
+						<td>D</td> <td>E</td> <td>F</td>
+					</tr>
+				</table>
+			</div>
+			<br/>
+			<div>
+				<table border cellpadding=0 cellspacing=10>
+								<tr>
+									<td>A</td> <td>B</td> <td>C</td>
+								</tr>
+								<tr>
+									<td>D</td> <td>E</td> <td>F</td>
+								</tr>
+
+				</table>
+			</div>
+			<br/>
+			<div>
+				<table border cellpadding=10 cellspacing=10>
+								<tr>
+									<td>A</td> <td>B</td> <td>C</td>
+								</tr>
+								<tr>
+									<td>D</td> <td>E</td> <td>F</td>
+								</tr>
+
+				</table>
+			</div>
+			<br/>
+			<div>
+				<table border=5 cellpadding=10 cellspacing=10>
+								<tr>
+									<td>A</td> <td>B</td> <td>C</td>
+								</tr>
+								<tr>
+									<td>D</td> <td>E</td> <td>F</td>
+								</tr>
+
+				</table>
+
+		<h1  align="center">ВЫРАВНИВАНИЕ, ЗАГОЛОВКИ И ПОДТАБЛИЦЫ</h1>
+		<h2>Множетвенные строки в таблицах</h2>
+		<table border>
+			<tr>
+				<th>Январь</th>
+				<th>Февраль</th>
+				<th>Март</th>
+			</tr>
+			<tr>
+				<td>Это ячейка 1</td>
+				<td>ячейка 2</td>
+				<td>Другая ячейка,<br> ячейка 3</td>
+			</tr>
+			<tr>
+				<td>ячейка 4</td>
+				<td>Еще одна<br> ячейка 5</td>
+				<td>ячейка 6</td>
+			</tr>
+			</table>
+		<h2>ALIGN=LEFT|RIGHT|CENTER</h2>
+		<div>Может применяться к отдельной ячейке или ко всей строке</div>
+		<br/>
+		<table border>
+			<tr>
+				<th>Январь</th>
+				<th>Февраль</th>
+				<th>Март</th>
+			</tr>
+			<tr align=center>
+				<td>Все по центру</td>
+				<td>ячейка 2</td>
+				<td>Другая ячейка,<br> ячейка 3</td>
+			</tr>
+			<tr>
+				<td align=right>По правому</td>
+				<td align=center>По центру</td>
+				<td>По-умолчанию,<br>по левому</td>
+			</tr>
+		</table>
+		<h2>VALIGN=TOP|BOTTOM|MIDDLE</h2>
+		<div>Может применяться к отдельной ячейке или ко всей строке</div>
+		<br/>
+		<table border>
+			<tr>
+				<th>Январь</th>
+				<th>Февраль</th>
+				<th>Март</th>
+			</tr>
+			<tr valign=top>
+				<td>По верхнему</td>
+				<td>Другая ячейка,<br> ячейка 2</td>
+				<td>ячейка 3</td>
+			</tr>
+			<tr>
+				<td valign=top>По верхнему</td>
+				<td valign=bottom>По нижнему</td>
+				<td>По-умолчанию,<br>по центру</td>
+			</tr>
+		</table>
+		<h2>CATION=TOP|BOTTOM</h2>
+		<table border>
+			<caption align=top>Верхний заголовок</caption>
+			<tr>
+				<th>Январь</th>
+				<th>Февраль</th>
+				<th>Март</th>
+			</tr>
+			<tr>
+				<td>Это ячейка 1</td>
+				<td>ячейка 2</td>
+				<td>Другая ячейка,<br> ячейка 3</td>
+			</tr>
+		</table>
+		<br/>	
+		<table border>
+			<caption align=bottom>Нижний заголовок</caption>
+			<tr>
+				<th>Январь</th>
+				<th>Февраль</th>
+				<th>Март</th>
+			</tr>
+			<tr>
+				<td>Это ячейка 1</td>
+				<td>ячейка 2</td>
+				<td>Другая ячейка,<br> ячейка 3</td>
+			</tr>
+		</table>	
+	<h2>Вложенные таблицы: таблица ASDF внутри таблицы 123456</h2>
+	<table border>
+		<tr> 
+			<td>1111</td>
+			<td>2222</td>
+			<td>3333
+				<table border>
+					<tr>
+						<td>AAAA</td>
+						<td>BBBB</td>
+					</tr>
+					<tr>
+						<td>CCCC</td>
+						<td>DDDD</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>4444</td>
+			<td>5555</td>
+			<td>6666</td>
+		</tr>
+	</table>
+	<h2>Задание ширины таблицы ШИРИНА 50%</h2>
+	<table border width="50%">
+		<tr><td>Width=50%</td><td>Width=50%</td>
+		</tr>
+		<tr><td>3</td><td>4</td>
+		</tr>
+	</table>
+	<br/>
+	<table border width="50%">
+		<tr><td>Ячейка зависит от ширины элемента</td><td>2</td>
+		</tr>
+		<tr><td>3</td><td>4</td>
+		</tr>
+	</table>
+	<br/>
+	<table border width="100%">
+		<tr><td>Width=100%</td><td>Это ячейка 2</td>
+		</tr>
+		<tr><td>3</td><td>4</td>
+		</tr>
+	</table>
+
+	<h2>Центрирование таблицы на странице</h2>
+	<center>
+		<table border width="50%">
+			<tr>
+				<td>A</td> <td>B</td> <td>C</td>
+			</tr>
+			<tr>
+				<td>D</td> <td>E</td> <td>F</td>
+			</tr>
+		</table>
+	</center>	
+	<h2>Ширина таблицы и вложенные таблицы</h2>
+	<table border width="50%">
+		<tr><td>Ячейка 1</td><td>Ячейка 2</td>
+		</tr>
+		<tr>
+			<td>
+				<table border width=100%>
+					<tr><td>Ячейка A</td><td>Ячейка B</td>
+					</tr>
+				</table>
+			</td>
+			<td>Ячейка 4</td>
+		</tr>
+	</table>
+	<h2>HEIGHT=15%</h2>
+	<table border width="20%" height="15%">
+		<tr><td>HEGHT=15%</td> <td>Ячейка 2</td>
+		</tr>
+		<tr><td>3</td><td>4</td>
+		</tr>
+	</table>
+	<h2>HTML таблица, расположенная внутри ячейки</h2>
+	<table border="3"  bordercolor = "black" width="15%" height="10%" bgcolor="gray" cellpadding=0 cellspacing=0>
+		<tr>
+			<td width="50%"></td> 
+			<td cell>
+				<table border width="60%" height="80%" bgcolor="lightgray">
+				<tr><td></td><td></td></tr>
+				<tr><td></td><td></td></tr>
+				</table>
+			</td>
+		</tr> 
+	</table>
+    </body>
+
+</html>
