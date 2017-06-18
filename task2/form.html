@@ -17,10 +17,10 @@
 			<fieldset>
 				<legend>Пожалуйста, представьтесь</legend>
 					<div>  Имя: </div> 
-					 	<div> <input type =  "text" name = "firstname" value =  "Введите имя"></div>   
+					 	<div> <input type =  "text" name = "firstname" placeholder =  'Введите имя'></div>   
 					 <br/>
 					 <div> Фамилия: </div>  
-					 	<div> <input type =  "text" name = "lastname" value =  "Введите фамилию"> </div>  
+					 	<div> <input type =  "text" name = "lastname" placeholder = 'Введите фамилию'> </div>  
 					 <br/>
 					 <div>Пол: </div>  
 						 <div> 
@@ -29,7 +29,7 @@
 						</div>
 					<br/>
 					<div>Возраст:</div>
-						<div><input name='age' type='number' placeholder='Укажите возраст' min='0' max='130'></div>
+						<div><input name='age' type='number' placeholder='Укажите возраст' min='0' max='130' style="width: 173px;" ></div>
 
 			</fieldset>
 			<fieldset>
@@ -148,25 +148,25 @@
 								<li>
 									<label>
 										<input  name='checkbox' type='checkbox'/>
-										<span>Бассейн, сауна <input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+										Бассейн, сауна <input name='mark' type='number' placeholder='Оценка' min='1' max='5'>
 									</label>
 								</li>
 								<li>
 									<input id='place' name='checkbox' type='checkbox'/>
-										<span>Бар, ресторан<input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
-									<label for='place'></label>
+									
+									<label for='place'>Бар, ресторан<input name='mark' type='number' placeholder='Оценка' min='1' max='5'></label>
 								</li>
 								<li>
 									<label>
 										<input name='checkbox' type='checkbox'/>
-										<span>Экскурсии<input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+										Экскурсии<input name='mark' type='number' placeholder='Оценка' min='1' max='5'>
 									</label>
 								</li>
 								<li>
 									<label>
 										<input name='checkbox' type='checkbox'/>
-										<span>Свой вариант:
-										<input name='text' type='text' placeholder='here'/><input name='mark' type='number' placeholder='Оценка' min='1' max='5'></span> 
+										Свой вариант:
+										<input name='text' type='text' placeholder='here'/><input name='mark' type='number' placeholder='Оценка' min='1' max='5'> 
 									</label>
 								</li>
 							</ul>
@@ -176,19 +176,19 @@
 							<div>
 								<label>
 									<input name='how' type='radio'/>
-									<span>Турагенство</span>
+									Турагенство
 								</label>
 							</div>
 							<div>
 								<label>
 									<input name='how' type='radio'/>
-									<span>Друзья</span>
+									Друзья
 								</label>
 							</div>
 							<div>
 								<label>
 									<input name='how' type='radio'/>
-									<span>СМИ</span>
+									СМИ
 								</label>
 							</div>
 						<li>
@@ -204,7 +204,7 @@
 								</div>
 						</li>
 					</ol>
-					<button type='button'>Отправить</button>								
+					<button type='submit'>Отправить</button>								
 				</fieldset>
 			</form>
 		</main>
