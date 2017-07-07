@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'proximaBold';
+    src: url('../fonts/proxima-nova-bold.otf');
+}
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/museosans.otf');
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'proximaSemiBold';
+    src: url('../fonts/proxima-nova-semibold.otf');
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	display: inline-block;
+}
+li{
+	display: inline-block;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+/*header*/
+
+.wrapper_header {
+	width: 100%;
+	font-family: 'MuseoSans';
+    font-weight: 700;
+    height: 80px;
+    position: fixed;
+    top:0;
+    background-color: #fff;
+}
+.wrapper_header_element{
+	max-width: 950px;
+	min-width: 615px;
+	margin: 0 auto;
+	height: inherit;
+}
+
+h1 {
+	color:  #82868f;
+	font-size: 30px;
+	float: left;
+	line-height: 80px;
+}
+.nav_ul{
+	float: right;
+	width: 500px;
+	height: 40px;
+	position: relative;
+	top: 20px;
+}
+
+.nav_ul li{
+	margin: 0 auto;
+	margin-left: 15px;
+	height: inherit;
+}
+.nav_ul li a {
+	color:  #82868f;
+	line-height: 40px;
+	height: inherit;
+}
+
+
+.sign_in {
+	width: 130px;
+}
+.sign_in a{
+	width: 100%;
+	text-align: center;
+}
+.nav_ul .sign_in a:hover{
+	background-color: #0ebfdd;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+/*MAIN*/
+
+#mission, #team {
+	 height: 600px;
+}
+#mission{
+	margin-top: 80px;
+}
+main, footer{
+	font-size: 20px;
+}
+h2{
+	font-family: "Avenir";
+    font-size: 44px;
+}
+p{
+	max-width: 780px;
+	margin: 0 auto;
+}
+
+
+/*MAIN:MISSION*/	
+
+#mission{
+	background-image: url('../img/mountains.png');
+    color: #fff;
+    text-align: center;
+}
+
+.mission_header{
+	padding: 400px 0 30px;
+}
+
+#mission h2 i {
+    font-size: 12px;
+    margin: 0 10px;
+	vertical-align: super;
+}
+
+
+/*MAIN: ABOUT US*/
+#about_us{
+    height: 250px;
+    color: #45494d;
+    text-align: center;
+}
+
+.about_header{
+	color: #0ebfdd;
+	padding: 50px 0 30px;
+}
+
+/*MAIN: TEAM*/
+#team{
+	background-color: #0ebfdd;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+}
+#team h2{
+	padding-top: 60px;
+}
+.team_list{
+	margin-top: 50px;
+}
+.team_list li{
+	margin: 50px;
+}
+
+.button_work{
+	display: block;
+	border: 1px solid #fff;
+    border-radius: 30px;
+    height: 40px;
+    width: 180px;
+    background-color: #0ebfdd;    
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    margin: 60px auto;
+	text-transform: uppercase;
+}
+
+.wrapper-footer {
+    background-color: #45494d;
+    font-size: 18px;
+}
+
+.wrapper-footer > .wrapper__element {
+    /*padding: 0 !important;*/
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.footer-list {
+    width: 100%;
+    margin: 35px 0 20px;
+}
+
+.footer-list, .footer-list-in-contact, .footer-list-social {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footer-list-social li {
+    margin-left: 9px;
+}
+
+.footer-list-social li a {
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-list-social i {
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.footer-list-social li:nth-child(2) i {
+    padding: 12px 15px;
+}
+
+.footer-list-in-contact li {
+    margin-right: 35px;
+    text-transform: uppercase;
+}
+
+.footer-list-in-contact li a {
+    font-family: 'MuseoSans';
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-list-biz {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 42px;
+    align-items: center;
+    border-top: 1px solid #5a5e62;
+    color: #73767a;
+    font-family: "MuseoSans";
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.footer-list-biz li {
+    padding: 0 11px;
+    border-right: 1px solid #73767a;
+    line-height: 12px;
+}
+
+.footer-list-biz li:last-child {
+    border: none;
+}
+
+#content {
+    width: 160px;
+    height: 80px;
+    background-color: #45494d;
+    padding: 10px;
+}
+
+#content h4 {
+    font-family: 'proximaBold';
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#content p{
+    font-family: 'proximaSemiBold';
+    color: #888e95;
+    font-size: 12px;
+    line-height: 18px;
+}
