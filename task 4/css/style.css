@@ -185,14 +185,13 @@ p{
     margin: 60px auto;
 	text-transform: uppercase;
 }
-
+/*footer*/
 .wrapper-footer {
     background-color: #45494d;
     font-size: 18px;
 }
 
 .wrapper-footer > .wrapper__element {
-    /*padding: 0 !important;*/
 	max-width: 950px;
 	margin: 0 auto;
 }
@@ -237,6 +236,9 @@ p{
     text-decoration: none;
     color: #fff;
 }
+.footer-list-in-contact li a:hover {
+    text-decoration: underline;
+    }
 
 .footer-list-biz {
     display: inline-flex;
