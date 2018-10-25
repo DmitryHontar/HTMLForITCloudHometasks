@@ -1,0 +1,38 @@
+Unhandled Exception: System.ServiceModel.FaultException`1[[Microsoft.Xrm.Sdk.OrganizationServiceFault, Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]: An error occurred. Click Download Log File and contact a system administrator or the person who installed this solution.Detail: 
+<OrganizationServiceFault xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/xrm/2011/Contracts">
+  <ActivityId>b1e63dde-5f13-4319-b666-10e270ccae7d</ActivityId>
+  <ErrorCode>-2147220891</ErrorCode>
+  <ErrorDetails xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>OperationStatus</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">0</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>SubErrorCode</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">-2146233088</d2p1:value>
+    </KeyValuePairOfstringanyType>
+  </ErrorDetails>
+  <Message>An error occurred. Click Download Log File and contact a system administrator or the person who installed this solution.</Message>
+  <Timestamp>2018-09-18T10:01:58.9555404Z</Timestamp>
+  <ExceptionRetriable>false</ExceptionRetriable>
+  <ExceptionSource i:nil="true" />
+  <InnerFault i:nil="true" />
+  <OriginalException i:nil="true" />
+  <TraceText>
+
+[ActivityFeeds.Plugins: ActivityFeeds.Plugins.CaseCreate]
+[b6321a1f-0548-e611-8109-3863bb353f68: ActivityFeeds.Plugins.CaseCreate: Create of case for account]
+Entered Microsoft.Dynamics.Service.Plugins.PreOperationIncidentCreate.Execute(), Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+Exiting Microsoft.Dynamics.Service.Plugins.PreOperationIncidentCreate.Execute(), Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+Entered Microsoft.Dynamics.Service.Plugins.PreOperationIncidentCreateEntitlement.Execute(), Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+Exiting Microsoft.Dynamics.Service.Plugins.PreOperationIncidentCreateEntitlement.Execute(), Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+Entered Microsoft.Dynamics.Service.Plugins.PostOperationIncidentCreateEntitlement.Execute(), Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+Exiting Microsoft.Dynamics.Service.Plugins.PostOperationIncidentCreateEntitlement.Execute(), Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+Entered PluginContext, Correlation Id: c9c4efd8-65f6-4cc6-bae9-e2d09190af19, Initiating User: b4f564b4-ef41-48cc-852d-af396efc12d2
+PostEntityImages should contain PostBusinessEntity
+Querying for Resource Names: Base:msdyn_/Data/PluginErrorStrings.resx,Org:msdyn_/Data/PluginErrorStrings.1033.resx,User:msdyn_/Data/PluginErrorStrings.1033.resx
+Returned the Localized Web resource
+
+</TraceText>
+</OrganizationServiceFault>
+
